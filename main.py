@@ -32,6 +32,7 @@ def find_shortest_pathway():
     }
     
     pin_point = ["A", 0]
+    curr="A"
     last_stops = []
     
     for x, y in graph_layout.items():
@@ -41,8 +42,9 @@ def find_shortest_pathway():
         if pin_point[0] in current_stop_point:
             print("Potential pathways:", current_stop_point)
             pin_point[0] = x[1]
+            curr=x[1]
             pin_point[1] = y
-            print(pin_point)
+            if pin[]
             
     
 find_shortest_pathway()
